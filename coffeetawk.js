@@ -31,7 +31,6 @@
 
 
 //Challenge2: Pseudocode 
-
 /* 
     Assumptions: - Payment is quick,
     - most people use AliPay or WeChat Pay.
@@ -63,7 +62,7 @@
     questions. */
 let quantity = Number(prompt('Number of drinks made by a baristas per 10 minutes:'))
 let questionppl = Number(prompt('Number of people asking baristas questions per 10 minutes:'))
-let time = Number(prompt('Average time to make a drink undisturb'))
+let time = Number(prompt('Average time for a baristas to make a drink undisturb'))
 let difference = (10 / time - quantity ) / questionppl
 
 if (difference > 0)
